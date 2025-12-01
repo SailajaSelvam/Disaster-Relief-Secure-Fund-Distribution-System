@@ -20,26 +20,21 @@ stored in a blockchain ledger.
 
 ## FEATURES 
  
- Victim registration – DID generation 
- Victim Verification using ZKP 
- No tampering allowed 
-Any attempt is immediately detected. 
- Chain validator checks the whole blockchain. 
- Simple and lightweight 
-No mining or complex consensus. 
- 100% custom 
-Designed only for fund transfer safety. 
- Transparent 
-Everyone can see the chain openly. 
- DID recovery via Email (SMTP)
+- Victim registration – DID generation 
+- Victim Verification using ZKP 
+- No tampering allowed 
+- Chain validator checks the whole blockchain. 
+- Simple and lightweight  
+- 100% custom 
+- DID recovery via Email (SMTP)
 
 ## Security Stack
 
-  AES → Encrypt sensitive data
-  RSA → Sign transactions
-  SHA-256 → Hash Govt ID
-  SQLite → Encrypted local DB
-  Email OTP → Password reset and DID recovery
+  1. AES → Encrypt sensitive data
+  2. RSA → Sign transactions
+  3. SHA-256 → Hash Govt ID
+  4. SQLite → Encrypted local DB
+  5. Email OTP → Password reset and DID recovery
 
 ## Requirements
 
@@ -135,13 +130,12 @@ Everyone can see the chain openly.
 
 ## Clone :
 git clone https://github.com/SailajaSelvam/Disaster-Relief-Secure-Fund-Distribution-System.git
-cd disaster-relief-fund
 
 ## Email Setup
 Edit email_utils.py and add:
 
-SENDER_EMAIL = "yourgmail@gmail.com"
-APP_PASSWORD = "your-app-password"
+- SENDER_EMAIL = "yourgmail@gmail.com"
+- APP_PASSWORD = "your-app-password"
 
 ## Run the application
 streamlit run app.py
@@ -149,7 +143,7 @@ streamlit run app.py
  
 
 ## Author
-## Sailaja S
+Sailaja S
 
  
  
