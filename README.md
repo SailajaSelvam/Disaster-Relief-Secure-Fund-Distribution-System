@@ -50,7 +50,7 @@ stored in a blockchain ledger.
  
 <img width="604" height="291" alt="image" src="https://github.com/user-attachments/assets/c9757875-947c-4b65-9bb6-b79aa3d74a01" />
 
-##After Registration DID generation
+## After Registration DID generation
  
 <img width="645" height="310" alt="image" src="https://github.com/user-attachments/assets/17bdf537-28b6-4bfc-98e2-cbc63c51030a" />
 
